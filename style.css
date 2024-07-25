@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    font-family: "Rubik", sans-serif;
+} */
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    border: 2px solid black;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    position: sticky;
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+/* .nav img{
+    width: 10%;
+} */
+
+#id1 {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.na {
+    display: flex;
+    width: 50%;
+}
+
+.n {
+    width: 20%;
+}
+
+.na a:hover {
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.na a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 20px;
+    /* margin-right: 10px; */
+}
+
+.n button {
+    margin-top: 14px;
+    padding: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: orange;
+    margin-left: 120px;
+}
+
+.n button:hover {
+    background-color: black;
+    color: white;
+}
+
+.heading1 {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.head1 {
+    width: 50%;
+    margin-top: 70px;
+}
+
+.head1 p {
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.font {
+    font-size: 70px;
+    margin-left: 60px;
+    /* font-weight: 900; */
+}
+
+.head1 button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.head2 {
+    width: 50%;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.background {
+    background-color: rgba(247, 175, 36, 0.1);
+    height: 200px;
+    font-weight: 600;
+    color: black;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+
+.bck {
+    text-decoration: underline wavy orange;
+}
+
+.box1 {
+    display: flex;
+    width: 100%;
+    background-color: rgba(247, 175, 36, 0.1);
+    padding-bottom: 60px;
+}
+
+.bx1 {
+    width: 33.3%;
+    background-color: white;
+    margin-left: 60px;
+    color: black;
+    border: 2px solid black;
+    padding: 30px;
+
+}
+
+.bx2 {
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 33.3%;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.bx3 {
+    width: 33.3%;
+    background-color: white;
+    margin-right: 60px;
+    border: 2px solid black;
+    color: black;
+    padding: 30px;
+}
+
+.bx1:hover {
+    box-shadow: 4px 4px black;
+}
+
+.bx2:hover {
+    box-shadow: 4px 4px black;
+}
+
+.bx3:hover {
+    box-shadow: 4px 4px black;
+}
+
+.Experience {
+    width: 100%;
+    display: flex;
+}
+
+.expe1 {
+    width: 50%;
+    margin-left: 60px;
+    margin-right: 120px;
+}
+
+.expe1 h1 {
+    margin-top: 60px;
+    font-size: 60px;
+    color: black;
+}
+
+.expe1 p {
+    color: rgb(82, 78, 78);
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.expe2 {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.h1 {
+    font-weight: 700;
+}
+
+.expe2 hr {
+    color: black;
+}
+
+.expe2 h3 {
+    margin-top: 30px;
+}
+
+.e1,
+.e2,
+.e3,
+.e4 {
+    display: flex;
+}
+
+.e1 h6,
+.e2 h6,
+.e3 h6,
+.e4 h6 {
+    margin-top: 30px;
+}
+
+.left {
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.right {
+    margin-left: 230px;
+}
+
+.skill {
+    color: black;
+    margin-left: 50px;
+}
+
+.skill2 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.div1,
+.div2 {
+    width: 25%;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: black;
+}
+
+.di1 {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.di1:hover {
+    box-shadow: 4px 4px black;
+}
+
+.div3 {
+    width: 30%;
+    height: 150px;
+}
+
+.div3 img {
+    border-radius: 50%;
+    margin-left: 170px;
+}
+
+
+.div3 button {
+    margin-top: 14px;
+    padding: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: orange;
+    margin-left: 200px;
+    font-weight: 600;
+    border: 2px solid black;
+}
+
+.div3 button:hover {
+    background-color: black;
+    color: white;
+}
+
+.home {
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.76);
+    border-radius: 100%;
+    padding: 4px;
+}
+
+.di2 {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.Projects {
+    color: black;
+    padding-left: 50px;
+    background-color: rgba(247, 175, 36, 0.1);
+    height: 150px;
+    padding-top: 70px;
+}
+
+
+.sec1,
+.sec2 {
+    display: flex;
+    width: 100%;
+    background-color: rgba(247, 175, 36, 0.1);
+}
+
+.sec2 {
+    padding-bottom: 40px;
+}
+
+.yt1,
+.yt2,
+.yt3 {
+    width: 33.3%;
+    border: 1px solid black;
+    /* margin: 20px; */
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+
+.yt1 img,
+.yt2 img,
+.yt3 img {
+    border: 1px solid black;
+}
+
+.yt1 h5,
+.yt2 h5,
+.yt3 h5 {
+    margin: 13px;
+}
+
+.yt1 p,
+.yt2 p,
+.yt3 p {
+    margin-left: 13px;
+}
+
+.yt1 {
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+.yt2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.yt3 {
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+.client {
+    color: black;
+    font-weight: 900;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+}
+
+.para {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-weight: 500;
+    color: rgb(145, 143, 143);
+}
+
+.para1 {
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+.para2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.para3 {
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+
+.para1 img,
+.para2 img,
+.para3 img {
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+.para1,
+.para2,
+.para3 {
+    width: 33.3%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+    font-size: 15px;
+}
+
+.para1:hover {
+    box-shadow: 4px 4px black;
+}
+
+.para2:hover {
+    box-shadow: 4px 4px black;
+}
+
+.para3:hover {
+    box-shadow: 4px 4px black;
+}
+
+.head {
+    color: black;
+    font-size: 22px;
+}
+
+html {
+    color: black;
+}
+
+.headiing {
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: rgba(247, 175, 36, 0.1);
+}
+
+.Touch{
+    display: flex;
+    width: 100%;
+    background-color: rgba(247, 175, 36, 0.1);
+    padding-bottom: 100px;
+}
+
+
+.Touch1{
+    border: 2px solid black;
+    margin-left: 60px;
+    padding-left: 20px;
+    background-color: white;
+    width: 50%;
+    padding-right: 20px;
+}
+
+label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(88, 88, 88);
+    padding-left: 2px;
+}
+
+input{
+    padding: 7px;
+    width: 80%;
+}
+
+.bake{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+textarea{
+    padding: 7px;
+}
+
+.bake2{
+    font-size: 20px;
+}
+
+.Touch1 button {
+    margin-top: 14px;
+    padding: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: orange;
+    /* margin-left: 120px; */
+    border: 2px solid black;
+    margin-bottom: 30px;
+}
+
+.Touch1 button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.Touch2{
+    width: 30%;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.a,
+.b,
+.c{
+    display: flex;
+}
+
+.enve{
+    font-size: 25px;
+    color: white;
+    background-color: rgba(9, 9, 255, 0.644);
+    padding: 10px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.grey{
+    font-weight: 600;
+}
+
+.footer{
+    display: flex;
+    border: 2px solid black;
+    color: rgb(100, 98, 98);
+    padding-left: 50px;
+}
+
+.paragraph{
+    margin-left: 700px;
+}
